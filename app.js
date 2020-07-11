@@ -35,7 +35,7 @@ function start(){
 }
 function stop(){
     clearInterval(interval);
-    document.getElementById('start').disabled=fale;
+    document.getElementById('start').disabled=false;
 }
 function reset(){
     document.getElementById('start').disabled=false;
